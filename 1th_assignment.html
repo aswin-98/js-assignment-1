@@ -1,0 +1,45 @@
+<html>
+   <head><title>1th assignment in js</title></head>
+   <body>
+        <center>
+      <h1>1th assignment in js</h1>
+    <h2>Letsupgrade </h2>
+
+     <p id="sample"></p>
+     <p id="sample2"></p>
+     
+     <script>
+
+       var d = new Date();
+       var weekday = new Array(7);
+       weekday[0] = "Sunday";
+       weekday[1] = "Monday";
+       weekday[2] = "Tuesday";
+       weekday[3] = "Wednesday";
+       weekday[4] = "Thursday";
+       weekday[5] = "Friday";
+       weekday[6] = "Saturday";
+     
+       var n = weekday[d.getDay()];
+       document.getElementById("sample").innerHTML ="today is : "+n;
+
+
+   function addZero(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+} 
+
+  var d = new Date();
+  var h = addZero(d.getHours());
+  var m = addZero(d.getMinutes());
+  var s = addZero(d.getSeconds());
+  document.getElementById("sample2").innerHTML ="Current Time is : "+h + ":" + m + ":" + s;
+
+     </script>
+  
+     
+</center>
+     </body>
+</html>
