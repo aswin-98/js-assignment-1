@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>6th assignment in js</title>
+</head>
+<body>
+     <h1>6th assignment in js</h1>
+     <h2>introduction of available Datatypes in JS</h2>
+
+     <p><h4>The String Data Type</h4>
+          The string data type is used to represent textual data. Strings are created using single or double quotes surrounding one or more characters.</p>
+          <script>
+               var a = "Let's have a cup of coffee."; // single quote inside double quotes
+               var b = 'He said "Hello" and left.';  // double quotes inside single quotes
+               var c = 'We\'ll never give up.';     // escaping single quote with backslash
+          </script>
+<hr>
+<p><h4>The Number Data Type</h4>
+     The number data type is used to represent positive or negative numbers with or without decimal place, or numbers written using exponential notation</p>
+     <script>
+          var a = 25;         // integer
+          var b = 80.5;       // floating-point number
+          var c = 4.25e+6;    // exponential notation, same as 4.25e6 or 4250000
+          var d = 4.25e-6;    // exponential notation, same as 0.00000425
+     </script>
+<hr>
+<p><h4>The Boolean Data Type</h4>
+     The Boolean data type can hold only two values: true or false. It is typically used to store values like yes (true) or no (false). </p>
+     <script>
+          var isReading = true;   // yes, I'm reading
+          var isSleeping = false; // no, I'm not sleeping
+     </script>
+<hr>
+<p><h4>The Undefined Data Type</h4>
+     The undefined data type can only have one value-the special value undefined. If a variable has been declared, but has not been assigned a value, has the value undefined.</p>
+     <script>
+          var x;
+          var y = "Hello World!";
+        console.log(x);
+        console.log(y);          
+    </script>
+<hr>
+<p><h4>The Null Data Type</h4>
+     This is another special data type that can have only one value-the null value. A null value means that there is no value. It is not equivalent to an empty string ("") or 0, it is simply nothing.
+        A variable can be explicitly emptied of its current contents by assigning it the null value.</p>
+    <script>
+         var empty = null;
+         console.log(empty);
+ 
+         var stored= "Hi am JavaScript"
+         console.log(stored); 
+    </script>
+    <hr>
+
+<p><h4>The Object Data Type</h4>
+     The object is a complex data type that allows you to store collections of data.
+        An object contains properties, defined as a key-value pair. A property key (name) is always a string, but the value can be any data type, like strings, numbers, booleans, or complex data types like arrays, function and other objects.</p>    
+
+        <script>
+             var emptyObject = {};
+     var computer = {
+    "OS": "Windows 10",
+    "RAM": "8 GB",
+    "Hard disk":"500 GB"
+     }
+        </script>
+</body>
+</html>

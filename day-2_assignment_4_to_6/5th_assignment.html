@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>5th assignment in js</title>
+</head>
+<body>
+     <h1>5th assignment in js</h1>
+     <h3>difference between Var,Ler and Const </h3>
+ <p>In Javascript one can define variables using the keywords var, let or const.</p>
+ <script>
+      var a=10;
+       let b=20;
+        const PI=3.14;
+ </script>
+<hr>
+<p><b>Var: </b>The scope of a variable defined with the keyword “var” is limited to the “function” within which it is defined. If it is defined outside any function, the scope of the variable is global.
+var is “function scoped”.</p>
+<script>
+      var a="LetsUpgrade";
+  console.log(a);
+</script>
+<hr>
+<p><b>let: </b>The scope of a variable defined with the keyword “let” or “const” is limited to the “block” defined by curly braces i.e. {} .</p>
+<script>
+     {
+ let b="Javascript";
+ console.log(b);
+} 
+</script>
+<hr>
+
+<p><b>const:</b> The scope of a variable defined with the keyword “const” is limited to the block defined by curly braces.</p>
+<script>
+{
+ const a = [1,2,3];
+ const b = {name: "hello"};
+
+ a.push(4,5);     //the value of constant "a"
+ b.name="World";  // the value of constant "b"
+ 
+ console.log(a); 
+ console.log(b); 
+ 
+}
+</script>
+</body>
+</html>
